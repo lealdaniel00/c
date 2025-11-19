@@ -28,6 +28,3 @@ jobs:
 
     - name: Run HolaMundo
       run: java HolaMundo
-
-
-      run: docker run java-app
