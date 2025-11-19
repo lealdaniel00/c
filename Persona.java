@@ -8,6 +8,7 @@ public class Persona{
 		this.nombre=nombre;
 		this.edad=edad;
 		energia=ener;
+		
 	}
 	//Duerme, respira, camina, etc etc.
 	public void dormir(int tiempo){
