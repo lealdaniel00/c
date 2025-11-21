@@ -3,6 +3,8 @@ public class HolaMundo{
 		Persona	pepito = new Persona("hyjfhtdgrthyjhmgfhdg",20,10);
 		pepito.dormir(15);
 		Persona juanita = new Persona("juanita",40,50);
+		pepito.envejecer(10);
+		pepito.respirar();
 		juanita.dormir(50);
 		juanita.dormir();
 		System.out.println(juanita.caminar());

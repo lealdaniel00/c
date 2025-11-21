@@ -1,12 +1,9 @@
-public class Persona{
-	String nombre;
-	int edad;
+public class Persona extends SerVivo{
 	int energia;
 	Casa casaMia;
 	// metodo constructor
 	Persona(String nombre, int edad, int ener){
-		this.nombre=nombre;
-		this.edad=edad;
+		super(edad,nombre);
 		energia=ener;
 	}
 	//Duerme, respira, camina, etc etc.
@@ -23,7 +20,6 @@ public class Persona{
 
 	// Los tipos de retorno pueden ser cualquier tipo de dato. String, int, boolean, void, etc.
 	public int caminar(){
-
 		System.out.println("LA persona esta caminando");
 		energia=energia-10;
 		return energia;
