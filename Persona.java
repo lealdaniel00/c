@@ -1,4 +1,4 @@
-public class Persona extends SerVivo{
+public class Persona extends SerVivo implements Trabajar{
 	int energia;
 	Casa casaMia;
 	// metodo constructor
@@ -24,4 +24,8 @@ public class Persona extends SerVivo{
 		energia=energia-10;
 		return energia;
 	}
+	public void ganarDinero(){
+		System.out.println("SOy persona y estoy trabajando");
+	}
+
 }

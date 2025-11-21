@@ -9,5 +9,9 @@ public class HolaMundo{
 		juanita.dormir();
 		System.out.println(juanita.caminar());
 		System.out.println(juanita.caminar());
+		Perro toby = new Perro();
+		toby.respirar();
+		juanita.ganarDinero();
+		toby.ganarDinero();
 	}
 }
